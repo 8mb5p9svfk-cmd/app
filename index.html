@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Installation…</title>
+
+  <!-- Lance le téléchargement immédiatement -->
+  <meta http-equiv="refresh" content="0; url=app.apk">
+</head>
+<body style="font-family:sans-serif;text-align:center;margin-top:40px">
+  <h3>Téléchargement / Installation…</h3>
+  <p>Si rien ne démarre, clique ici :</p>
+
+  <a href="app.apk" style="font-size:18px;">Télécharger l’APK</a>
+
+  <script>
+    // Double sécurité (certains navigateurs ignorent le meta refresh)
+    location.replace("app.apk");
+  </script>
+</body>
+</html>
